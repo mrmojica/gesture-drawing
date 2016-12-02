@@ -86,7 +86,6 @@ exports.FETCH_IMAGES_SUCCESS = FETCH_IMAGES_SUCCESS;
 exports.fetchImagesSuccess = fetchImagesSuccess;
 exports.FETCH_IMAGES_ERROR = FETCH_IMAGES_ERROR;
 exports.fetchImagesError = fetchImagesError;
-
 exports.START_SESSION = START_SESSION;
 exports.startSession = startSession;
 exports.END_SESSION = END_SESSION;
@@ -97,5 +96,4 @@ exports.PREVIOUS_IMAGE = PREVIOUS_IMAGE;
 exports.previousImage = previousImage;
 exports.TOGGLE_PAUSE = TOGGLE_PAUSE;
 exports.togglePause = exports.togglePause;
-
 exports.fetchImages = fetchImages;
