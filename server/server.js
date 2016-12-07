@@ -13,10 +13,7 @@ app.get('/images', function(req, res) {
 		res.json(images);
 	});
 
-app.listen(8080, function () {
-  console.log('Listening at 8080!');
+app.listen(process.env.PORT || 8080, function () {
+
 });
 
-exports.PORT = 8080 || process.env.PORT;
-
-exports.app = app;
